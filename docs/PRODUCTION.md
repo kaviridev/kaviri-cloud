@@ -73,7 +73,8 @@ rather than all repositories, with deploy-to-production on and the production br
 On 14 Nov 2026 the repository moved to the `kaviridev` organization. An installation on a
 personal account cannot see a repository that account no longer owns, so the app has to be
 installed on `kaviridev` (scoped to `kaviri-cloud`) and the Supabase project's GitHub
-connection pointed at `kaviridev/kaviri-cloud` before the next migration will apply.
+connection pointed at `kaviridev/kaviri-cloud` before the next migration will apply. Both
+were done the same day: working directory `.`, deploy to production on, branch `main`.
 
 One thing had to happen first, and it is the kind of thing that breaks the first sync: the
 twelve migrations were applied by hand, so `supabase_migrations.schema_migrations` was empty
