@@ -1,6 +1,6 @@
 # kaviri-cloud
 
-The hosted half of [kaviri](https://github.com/thisisisheanesu/kaviri). You POST a script, you get
+The hosted half of [kaviri](https://github.com/kaviridev/kaviri). You POST a script, you get
 an MP4.
 
 This repository holds the database, the edge Workers, the render worker and the

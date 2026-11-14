@@ -132,7 +132,7 @@ Submit a take. Returns immediately; the render happens on the fleet.
     "out_height": null
   },
   "source": {
-    "repository": "thisisisheanesu/kaviri",
+    "repository": "kaviridev/kaviri",
     "ref": "refs/pull/412/merge",
     "sha": "9f1c2ae",
     "run_id": "11224455"

@@ -66,9 +66,14 @@ and does in every other case.
 
 ### 2b. GitHub is connected to Supabase.
 
-The Supabase GitHub App is installed on `thisisisheanesu`, scoped to `kaviri-cloud` alone
+The Supabase GitHub App was installed on `thisisisheanesu`, scoped to `kaviri-cloud` alone
 rather than all repositories, with deploy-to-production on and the production branch set to
 `main`. Migrations now apply on every push.
+
+On 14 Nov 2026 the repository moved to the `kaviridev` organization. An installation on a
+personal account cannot see a repository that account no longer owns, so the app has to be
+installed on `kaviridev` (scoped to `kaviri-cloud`) and the Supabase project's GitHub
+connection pointed at `kaviridev/kaviri-cloud` before the next migration will apply.
 
 One thing had to happen first, and it is the kind of thing that breaks the first sync: the
 twelve migrations were applied by hand, so `supabase_migrations.schema_migrations` was empty
